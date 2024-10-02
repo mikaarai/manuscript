@@ -2,30 +2,26 @@ body {
 	font-family: "EB Garamond", serif;
 	font-size: 20px;
 	padding: 24px;
-	background-color: white;
-	color: black;
-	margin-left: 27%;
-	margin-right: 27%;
+	max-width:75ch;
 }
 
 h1 {
 	font-family: "Playfair Display", serif;
 	text-align: center;
 	font-size: 52px;
-	color: black;
 	font-weight: 900;
 }
 
 h2 {
-	color: black;
 	font-size: 36px;
 }
 
 p {
 	max-width: 100ch;
-	line-height: 200%;
-	font-family: "century gothic", serif;
+	line-height: 150%;
+	font-family: "Didact Gothic", serif;
 	margin-bottom: 48px;
+	max-width:65ch;
 }
 
 .introduction-paragraph {
@@ -34,7 +30,7 @@ p {
 }
 
 .author {
-	font-family: EB Garamond, sans-serif;
+	font-family: "EB Garamond", sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -54,17 +50,19 @@ article {
 }
 
 blockquote {
-	line-height: 200%;
-	margin-top: 80px;
-	margin-bottom: 80px;
-	font-size: 24px;
+	line-height: 150%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-size: 20px;
+	font-family: "Didact Gothic", serif;
 }	
 
 .box {
-	color:;
-	background-color: 	#FFE4E1;
-	padding:60px;
-	border-radius: 8px;
+	color:black;
+	background-color: rgb(245, 245, 245);
+	padding:100px;
+	border-radius: 20px;
 	border: 1px;
-	margin:0%;
 }
+
+
