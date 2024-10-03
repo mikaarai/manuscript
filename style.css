@@ -1,52 +1,37 @@
 body {
-	font-family: "EB Garamond", serif;
+	font-family: "Didact Gothic", serif;
 	font-size: 20px;
 	padding: 24px;
 	max-width:75ch;
 	margin: auto;
-	
-}
+	}
 
 h1 {
 	font-family: "Playfair Display", serif;
+	font-size: 60px;
 	text-align: center;
-	font-size: 52px;
 	font-weight: 900;
-	font-style: normal;
+	border-bottom: solid black 2px;
+	padding-bottom: 3rem;
 }
 
 h2 {
 	font-size: 36px;
+	font-family: "Playfair Display", serif;
 }
 
 p {
-	max-width: 100ch;
 	line-height: 150%;
-	font-family: "Didact Gothic", serif;
 	margin-bottom: 40px;
-	max-width:75ch;
-	overflow: auto;
-}
-
-.introduction-paragraph {
-	font-size: 36px;
-	font-weight: bold;
-}
-
-.author {
-	font-family: "EB Garamond", sans-serif;
-	font-size: 18px;
-	font-weight: bold;
 }
 
 em {
 	background-color: rgb(255, 0, 0);
 	color: white;
 	font-weight: 600;
-	font-size: 40px;
+	font-size: 52px;
 	line-height: 150%;
 	font-style: normal;
-
 }
 
 section {
@@ -61,16 +46,44 @@ blockquote {
 	line-height: 150%;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	font-size: 20px;
+	font-size: 36px;
 	font-family: "Didact Gothic", serif;
+	font-weight: bold;
 }	
 
+.subtitle {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.author {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .reflection {
-	color:black;
 	background-color: rgb(245, 245, 245);
-	padding:100px;
+	padding: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
 	border-radius: 20px;
 	border: 1px;
+	border-style: groove;
+	margin-top: 80px;
+}
+
+.quote {
+	font-style: italic;
+	font-size: 20px;
+	background-color: transparent;
+	color: black;
+	font-weight:bold;
+	
+}
+
+.cite {
+	margin-bottom: 40px;
 }
 
 a:link {
@@ -78,20 +91,10 @@ a:link {
 }
 
 a:hover {
-	color:purple;
+	color:rgb(51, 0, 255);
 }
 
-.quote {
-	background-color: brown;
-	font-size: 32px;
-}
-
-.subtitle {
-	font-style: italic;
-}
-
-h1 {
-	border-bottom: solid black 2px;
-	padding-bottom: 2rem;
-
+.underline {
+	text-decoration: underline;
+	font-weight: normal;
 }
