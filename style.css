@@ -3,6 +3,8 @@ body {
 	font-size: 20px;
 	padding: 24px;
 	max-width:75ch;
+	margin: auto;
+	
 }
 
 h1 {
@@ -10,6 +12,7 @@ h1 {
 	text-align: center;
 	font-size: 52px;
 	font-weight: 900;
+	font-style: normal;
 }
 
 h2 {
@@ -20,8 +23,9 @@ p {
 	max-width: 100ch;
 	line-height: 150%;
 	font-family: "Didact Gothic", serif;
-	margin-bottom: 48px;
-	max-width:65ch;
+	margin-bottom: 40px;
+	max-width:75ch;
+	overflow: auto;
 }
 
 .introduction-paragraph {
@@ -35,10 +39,14 @@ p {
 	font-weight: bold;
 }
 
-span {
-	background-color: red;
+em {
+	background-color: rgb(255, 0, 0);
 	color: white;
 	font-weight: 600;
+	font-size: 40px;
+	line-height: 150%;
+	font-style: normal;
+
 }
 
 section {
@@ -57,7 +65,7 @@ blockquote {
 	font-family: "Didact Gothic", serif;
 }	
 
-.box {
+.reflection {
 	color:black;
 	background-color: rgb(245, 245, 245);
 	padding:100px;
@@ -65,4 +73,25 @@ blockquote {
 	border: 1px;
 }
 
+a:link {
+	color:red;
+}
 
+a:hover {
+	color:purple;
+}
+
+.quote {
+	background-color: brown;
+	font-size: 32px;
+}
+
+.subtitle {
+	font-style: italic;
+}
+
+h1 {
+	border-bottom: solid black 2px;
+	padding-bottom: 2rem;
+
+}
