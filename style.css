@@ -49,6 +49,8 @@ blockquote {
 	font-size: 36px;
 	font-family: "Didact Gothic", serif;
 	font-weight: bold;
+	background-color: rgb(235, 233, 233);
+	padding: 30px;
 }	
 
 .subtitle {
