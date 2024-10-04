@@ -1,6 +1,6 @@
 body {
 	font-family: "Didact Gothic", serif;
-	font-size: 20px;
+	font-size: 22px;
 	padding: 24px;
 	max-width:75ch;
 	margin: auto;
@@ -86,15 +86,22 @@ blockquote {
 	margin-bottom: 40px;
 }
 
-a:link {
-	color:red;
-}
-
 a:hover {
-	color:rgb(51, 0, 255);
+	color:red;
 }
 
 .underline {
 	text-decoration: underline;
 	font-weight: normal;
 }
+
+.fixed {
+	right: 30px;
+	position: fixed;
+	top: 30px;
+	width: 120px;
+	padding:1rem;
+	border-color: black;
+	border: 1px;
+	}
+	
