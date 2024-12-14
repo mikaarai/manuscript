@@ -1,42 +1,89 @@
+:root {
+--base-background-color: #BFB4AB;
+--base-background-color-black: #1A1A18;
+--base-font-color: #1A1A18;
+--base-element-color: #705648;
+--base-element2-color: #C19E8B;
+--base-element3-color: #D2CABC;
+--base-font-size-h1: 5.5rem;
+--base-font-size-h2: 2.8rem;
+--base-font-size-h3: 1.3rem;
+--base-font-size-h4: 1.2rem;
+--base-font-size-h5: 1.4rem;
+--base-font-size-body: 1.2rem;
+--base-font-size-large-font: 3rem;
+--base-font-footer: 1rem;
+--base-font-h1-family: gloock;
+--base-font-h2-family: gloock;
+--base-font-h3-family: UnifrakturMaguntia;
+--base-font-h4-family: noticia text;
+--base-font-h5-family: manrope;
+--base-font-body-family: noticia text;
+--base-max-width: 60ch;
+--base-margin-left: 3%;
+--base-margin-right: 3%;
+--base-line-height: 150%;
+}
+
+/* header {
+	
+} */
+
 body {
-	font-family: "Didact Gothic", serif;
-	font-size: 22px;
-	padding: 24px;
-	max-width:75ch;
-	margin: auto;
-	}
+	margin-left: var(--base-margin-left);
+	margin-right: var(--base-margin-right);
+	background-color: var(--base-background-color);
+	font-family: var(--base-font-body-family);
+	font-size: var(--base-font-size-body);
 
+}
 h1 {
-	font-family: "Playfair Display", serif;
-	font-size: 60px;
+	font-family: var(--base-font-h1-family);
+	font-size: var(--base-font-size-h1);
+	background-color: var(--base-background-color-black);
+	color: var(--base-element3-color);
+	font-weight: 400;
 	text-align: center;
-	font-weight: 900;
-	border-bottom: solid black 2px;
-	padding-bottom: 3rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+h2 {
+	font-family: var(--base-font-h2-family);
+	font-size: var(--base-font-size-h2);
+	margin-bottom: 2rem;
+	font-weight: 800;
+}
+h3 {
+	font-family: var(--base-font-h3-family);
+	font-size: var(--base-font-size-h3);
+	text-align: center;
+	margin-top: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: solid black 0.5px;
+}
+h4 {
+	font-family: var(--base-font-h4-family);
+	font-size: var(--base-font-size-h4);
+	font-weight: 400;
+}
+h5 {
+	background-color: var(--base-element-color);
 }
 
-h2 {
-	font-size: 36px;
-	font-family: "Playfair Display", serif;
-}
 
 p {
-	line-height: 150%;
-	margin-bottom: 40px;
+	line-height: var(--base-line-height);
+	/* margin-bottom: 40px;
+	max-width:75ch; */
 }
 
-em {
-	background-color: rgb(255, 0, 0);
-	color: white;
-	font-weight: 600;
-	font-size: 52px;
-	line-height: 150%;
-	font-style: normal;
-}
 
-section {
+/* em {
+} */
+
+/* section {
 	margin-top: 64px;
-}
+} */
 
 article {
 	margin-top: 40px;
@@ -52,6 +99,13 @@ blockquote {
 	background-color: rgb(235, 233, 233);
 	padding: 30px;
 }	
+.large-font {
+	background-color: var(--base-background-color-black);
+	font-size: var(--base-font-size-large-font);
+	color: var(--base-background-color);
+	/* padding: 0.1rem; */
+	display: inline;
+}
 
 .subtitle {
 	font-style: italic;
@@ -60,8 +114,9 @@ blockquote {
 }
 
 .author {
-	font-size: 18px;
+	font-size: var(--base-font-size-body);
 	font-weight: bold;
+	margin-bottom: 1rem;
 }
 
 .reflection {
