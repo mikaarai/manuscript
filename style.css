@@ -33,10 +33,11 @@ header {
 }
 
 body {
-		background-color: var(--base-background-color);
+	background-color: var(--base-background-color);
 	font-family: var(--base-font-body-family);
 	font-size: var(--base-font-size-body);
-
+	margin: 0;
+	padding: 0;
 }
 h1 {
 	font-family: var(--base-font-h1-family);
