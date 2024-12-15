@@ -22,9 +22,9 @@
 --base-font-h6-family: noticia text;
 --base-font-body-family: noticia text;
 --base-max-width: 60ch;
---base-margin-left: 3%;
---base-margin-right: 3%;
---base-line-height: 150%;
+--base-margin-left: 4%;
+--base-margin-right: 4%;
+--base-line-height: 160%;
 }
 
 header {
@@ -63,7 +63,7 @@ h3 {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	width: 100%;
-	border-bottom: solid black 0.5px;
+	border-bottom: solid black 1px;
 	position: fixed;
 	top: 0;
 	z-index: 100;
@@ -99,7 +99,7 @@ p {
 	margin-left: var(--base-margin-left);
 	margin-right: var(--base-margin-right);
 	line-height: var(--base-line-height);
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.3rem;
 	max-width: 75ch; 
 }
 
