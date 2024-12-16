@@ -1,5 +1,6 @@
 :root {
 --base-background-color: #BFB4AB;
+--base-background-color-darker: #afa399;
 --base-background-color-black: #1A1A18;
 --base-font-color: #1A1A18;
 --base-element-color: #705648;
@@ -11,7 +12,7 @@
 --base-font-size-h4: 1.2rem;
 --base-font-size-h5: 3rem;
 --base-font-size-h6: 2.8rem;
---base-font-size-h7: 1.3rem;
+--base-font-size-h7: 1.5rem;
 --base-font-size-body: 1.2rem;
 --base-font-size-large-font: 3rem;
 --base-font-footer: 1rem;
@@ -143,9 +144,10 @@ strong {
 blockquote {
 	margin: 1rem;
 	padding: 1rem;
-	border: black solid 1px;
-	border-style: groove;
+	border: var(--base-element-color) dotted 4px;
+	background-color: var(--base-background-color-darker);
 	margin-bottom: 1.5rem;
+	line-height: var(--base-line-height);
 }	
 aside {
 	background-color: var(--base-background-color-black);
@@ -172,8 +174,9 @@ em {
 .reflection {
 	margin: 1rem;
 	padding: 1rem;
-	border: black solid 1px;
+	border: black solid 0.5px;
 	border-style: groove;
+	background-color: var(--base-element3-color);
 }
 .reflection p {
 	margin: 0;
